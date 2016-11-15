@@ -10,12 +10,12 @@
                                 ENV['GEM_HOME']='deps'
                                 require 'sass'
                                 Sass")]
-  (defn compile-file [^java.io.File file]
+  (defn compile-file [^java.net.URL file]
     (.callMethod ruby sass "compile_file" (.getPath file) String)))
 
 (defn- load-sass-asset [public-dir path]
   (let [resource (existing-resource public-dir path)
-        css (-> resource io/resource compile-file)
+        css (-> resource compile-file)
         css-asset (create-css-asset (str/replace path #"\.sass\z|\.scss\z" ".css")
                                     css
                                     (last-modified resource))]
