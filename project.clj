@@ -1,4 +1,4 @@
-(defproject onaio/optimus-sass "0.1.0-SNAPSHOT"
+(defproject onaio/optimus-sass "0.1.0"
   :description "Sass/SCSS asset loader for Optimus"
   :url "http://github.com/DomKM/optimus-sass"
   :license {:name "Eclipse Public License"
