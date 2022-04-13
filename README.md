@@ -3,7 +3,9 @@
 A [Sass/SCSS](http://sass-lang.com/) asset loader for [Optimus](http://github.com/magnars/optimus) based on [optimus-less](https://github.com/magnars/optimus-less).
 
 
-## Usage [![Current Version](https://clojars.org/optimus-sass/latest-version.svg)](https://clojars.org/optimus-sass)
+## Usage [![Current Version](https://clojars.org/onaio/optimus-sass/latest-version.svg)](https://clojars.org/onaio/optimus-sass)
+
+This project uses [Dart Sass](https://sass-lang.com/dart-sass), you need to install it globally
 
 `require` `optimus-sass.core` in the namespace where
 you're loading assets. That's it. You can then load `.sass` and `.scss` files just as you would load `.css` files.
