@@ -1,6 +1,6 @@
 (defproject optimus-sass "0.1.1"
   :description "Sass/SCSS asset loader for Optimus"
-  :url "http://github.com/DomKM/optimus-sass"
+  :url "http://github.com/onaio/optimus-sass"
   :license {:name "Eclipse Public License"
             :url "http://www.eclipse.org/legal/epl-v10.html"}
   :dependencies [[org.clojure/clojure "1.10.3"]
